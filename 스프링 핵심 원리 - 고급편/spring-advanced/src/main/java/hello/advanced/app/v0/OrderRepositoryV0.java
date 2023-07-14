@@ -14,7 +14,7 @@ public class OrderRepositoryV0 {
         if (itemId.equals("ex")) {
             throw new IllegalStateException("예외 발생!");
         }
-        sleep(1000);
+        sleep(1000); // 상품을 저장하는데 1초가 걸린다고 가정
     }
 
     private void sleep(int millis) {
